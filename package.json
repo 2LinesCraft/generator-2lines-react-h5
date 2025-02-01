@@ -1,6 +1,6 @@
 {
   "name": "generator-2lines-react-h5",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "用于快速创建基于 React 的移动端应用模板的 Yeoman 生成器",
   "main": "index.js",
   "scripts": {
