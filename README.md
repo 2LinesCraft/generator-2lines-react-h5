@@ -103,7 +103,6 @@ pnpm test
 
 生成的项目包含以下配置文件：
 
-- `.env.example` - 环境变量示例
 - `.eslintrc.cjs` - ESLint 配置
 - `.prettierrc` - Prettier 配置
 - `postcss.config.js` - PostCSS 配置
