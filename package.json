@@ -1,0 +1,25 @@
+{
+  "name": "generator-2lines-react-h5",
+  "version": "1.0.1",
+  "description": "用于快速创建基于 React 的移动端应用模板的 Yeoman 生成器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "react",
+    "mobile",
+    "template",
+    "2lines"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "yeoman-generator": "^7.4.0"
+  }
+}
