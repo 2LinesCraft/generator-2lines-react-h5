@@ -1,125 +1,127 @@
 # generator-2lines-react-h5
 
-> 一个用于快速创建 React 移动端应用的 Yeoman 生成器
+> A Yeoman Generator for Quickly Creating React Mobile Applications
 
-## 功能特性
+English | [简体中文](./README.zh-CN.md)
 
-- ⚡️ 基于 Vite 4.x + React 18 + TypeScript 5
-- 🎨 使用 TailwindCSS 3.x 进行样式开发
-- 📱 移动端优先的响应式设计
-- 🔧 集成 PostCSS + pxtorem 移动端适配
-- 📦 Redux Toolkit + Redux Persist 状态管理
-- 🛠️ ESLint + Prettier 代码规范配置
-- 🌐 封装 Axios 请求
-- 🔍 MSW 接口模拟
-- 🎁 集成 ahooks React Hooks 工具库
-- 🔒 安全且优化的构建配置
+## Features
 
-## 安装
+- ⚡️ Based on Vite 4.x + React 18 + TypeScript 5
+- 🎨 Styling with TailwindCSS 3.x
+- 📱 Mobile-first Responsive Design
+- 🔧 Integrated PostCSS + pxtorem for Mobile Adaptation
+- 📦 Redux Toolkit + Redux Persist State Management
+- 🛠️ ESLint + Prettier Code Style Configuration
+- 🌐 Axios Request Encapsulation
+- 🔍 MSW API Mocking
+- 🎁 Integrated ahooks React Hooks Utility Library
+- 🔒 Secure and Optimized Build Configuration
 
-首先，确保你已经安装了 [Node.js](https://nodejs.org/) (版本 >= 18)。
+## Installation
 
-然后全局安装 [Yeoman](https://yeoman.io) 和 generator-2lines-react-h5：
+First, ensure you have [Node.js](https://nodejs.org/) installed (version >= 18).
+
+Then, globally install [Yeoman](https://yeoman.io) and generator-2lines-react-h5:
 
 ```bash
 npm install -g yo
 npm install -g generator-2lines-react-h5
 ```
 
-或者使用 pnpm：
+Or using pnpm:
 
 ```bash
 pnpm add -g yo
 pnpm add -g generator-2lines-react-h5
 ```
 
-## 使用方法
+## Usage
 
-创建一个新的目录，并在其中运行：
+Create a new directory and run:
 
 ```bash
 yo 2lines-react-h5
 ```
 
-这将引导你完成项目的创建过程，包括：
+This will guide you through the project creation process, including:
 
-1. 输入项目名称
-2. 输入项目描述
-3. 输入作者信息
+1. Entering the project name
+2. Entering the project description
+3. Entering author information
 
-生成器会自动：
+The generator will automatically:
 
-1. 创建项目目录结构
-2. 安装所需依赖
-3. 配置开发环境
-4. 设置基本的项目文件
+1. Create project directory structure
+2. Install required dependencies
+3. Configure development environment
+4. Set up basic project files
 
-## 项目结构
+## Project Structure
 
-生成器会创建以下目录结构：
+The generator will create the following directory structure:
 
 ```
 src/
-  ├── api/             # API 接口定义
-  ├── assets/          # 静态资源
-  ├── components/      # 公共组件
-  ├── hooks/           # 自定义 Hooks
-  ├── mocks/           # MSW 接口模拟
-  ├── pages/           # 页面组件
-  ├── router/          # 路由配置
-  ├── services/        # 接口服务
-  ├── store/           # Redux 状态管理
-  ├── types/           # TypeScript 类型定义
-  ├── utils/           # 工具函数
-  ├── App.tsx          # 应用根组件
-  └── main.tsx         # 入口文件
+  ├── api/             # API Interface Definitions
+  ├── assets/          # Static Resources
+  ├── components/      # Shared Components
+  ├── hooks/           # Custom Hooks
+  ├── mocks/           # MSW API Mocking
+  ├── pages/           # Page Components
+  ├── router/          # Routing Configuration
+  ├── services/        # API Services
+  ├── store/           # Redux State Management
+  ├── types/           # TypeScript Type Definitions
+  ├── utils/           # Utility Functions
+  ├── App.tsx          # Application Root Component
+  └── main.tsx         # Entry Point
 ```
 
-## 命令
+## Scripts
 
-生成的项目包含以下 npm 脚本：
+The generated project includes the following npm scripts:
 
 ```bash
-# 开发
+# Development
 pnpm dev
 
-# 构建
+# Build
 pnpm build
 
-# 预览
+# Preview
 pnpm preview
 
-# 代码检查
+# Code Linting
 pnpm lint
 
-# 代码格式化
+# Code Formatting
 pnpm format
 
-# 运行测试
+# Run Tests
 pnpm test
 ```
 
-## 配置
+## Configuration
 
-生成的项目包含以下配置文件：
+The generated project includes the following configuration files:
 
-- `.eslintrc.cjs` - ESLint 配置
-- `.prettierrc` - Prettier 配置
-- `postcss.config.js` - PostCSS 配置
-- `tailwind.config.js` - TailwindCSS 配置
-- `tsconfig.json` - TypeScript 配置
-- `vite.config.ts` - Vite 配置
+- `.eslintrc.cjs` - ESLint Configuration
+- `.prettierrc` - Prettier Configuration
+- `postcss.config.js` - PostCSS Configuration
+- `tailwind.config.js` - TailwindCSS Configuration
+- `tsconfig.json` - TypeScript Configuration
+- `vite.config.ts` - Vite Configuration
 
-## 开发
+## Development
 
-1. Fork 本仓库
-2. 克隆你的 fork 到本地
-3. 安装依赖：`pnpm install`
-4. 创建新分支：`git checkout -b feature/your-feature`
-5. 提交改动：`git commit -am 'feat: add some feature'`
-6. 推送到分支：`git push origin feature/your-feature`
-7. 提交 Pull Request
+1. Fork this repository
+2. Clone your fork locally
+3. Install dependencies: `pnpm install`
+4. Create a new branch: `git checkout -b feature/your-feature`
+5. Commit changes: `git commit -am 'feat: add some feature'`
+6. Push to branch: `git push origin feature/your-feature`
+7. Submit a Pull Request
 
-## 许可证
+## License
 
 [MIT](LICENSE) © 2LinesCraft
